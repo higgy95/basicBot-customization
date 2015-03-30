@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "higgy95";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "ResBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -90,7 +90,7 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
         motd: "Hey Join the Minecraft server! resurrection13.com",
         filterChat: true,
@@ -101,7 +101,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: http://resurrection13.com/,
+        website: "http://resurrection13.com/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
